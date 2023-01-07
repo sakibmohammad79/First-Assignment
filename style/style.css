@@ -33,7 +33,7 @@ header{
     height: 64px;
     left: 1210px;
     top: 540px;
-    background: #FF5959;
+    background: #F15B22;
     border-radius: 5px;
     border: none;
     color: #FFFFFF;
@@ -48,7 +48,7 @@ header{
     gap: 87px;
 }
 .person-picture{
-    padding: 130px 200px;
+    padding: 100px 200px;
     width: 569px;
     height: 723.3px;
     left: 206px;
@@ -66,6 +66,10 @@ header{
     font-weight: 700;
     font-size: 45px;
     padding-bottom: 24px;
+}
+span{
+    color:#F15B22;
+    font-size: 1.5rem;
 }
 .about-description{
     color: #444343;
@@ -88,6 +92,9 @@ header{
     font-size: 40px;
     text-align: center;
     padding-bottom: 80px;
+}
+.success img{
+    margin: 40px;
 }
 .plan-content{
     display: flex;
@@ -140,12 +147,14 @@ header{
     font-weight: 400;
     color: #757575;
 }
+
 /*bos style start*/
 .box-header{
-    margin: 50px 200px;
+    margin: 100px 200px;
     background-image:url(../images/watch.png);
     background-size: cover;
     padding: 60px 60px 60px 100px;
+    background-image: linear-gradient(to right, orange, yellow);
 
 }
 .box-text{
@@ -155,12 +164,11 @@ header{
     padding-bottom: 10px;
 }
 .btn-box{
+    color: #F15B22;
     width: 160px;
     height: 64px;
-    background: #FF5959;
     border-radius: 5px;
     border: none;
-    color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
 }
@@ -176,41 +184,51 @@ header{
 .btn-footer{
     width: 160px;
     height: 64px;
-    background: #FF5959;
+    color: #F15B22;
     border-radius: 5px;
     border: none;
-    color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
+    margin-top: 10px;
 }
 .footer-title{
     font-weight: 700;
 font-size: 45px;
 color: #F8F8F8;
+padding-bottom: 25px;
 }
 .footer-des{
     font-weight: 400;
-font-size: 16px;
-color: #FFFFFF;
+    font-size: 16px;
+    color: #FFFFFF;
 }
 .footer-des-one{
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
+    padding: 25px 0;
 }
 .footer-des-two{
     font-weight: 400;
-font-size: 16px;
-color: #FFFFFF;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 25px;
 }
 .footer-title-one{
     font-weight: 600;
-font-size: 25px;
-color: #F8F8F8;
+    font-size: 25px;
+    color: #F8F8F8;
+    padding-bottom: 20px;
 }
 .email{
     background-color: #151414;
-    padding: 10px;
+    padding: 20px;
     color: #F8F8F8;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.footer-content img{
+    padding-right: 20px;
 }
 /*footer style end*/
