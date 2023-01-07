@@ -25,7 +25,8 @@ header{
 .header-description{
     color: #444343;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
+    padding: 10px 0;
 }
 .btn-primary{
     width: 160px;
