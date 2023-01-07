@@ -7,65 +7,57 @@
 /* background image style*/
 header{
     background-image: url(/images/banner/banner1.png);
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: cover;
 }
 /*background image style end*/
 
 /*Header title-description-button style*/
 .header-title-description{
-    padding: 216px 230px 364px 845px;
+    padding: 250px 150px 200px 750px;
+    text-align: right;
 }
 .header-title{
     color: #151414;
-    text-align: right;
     font-weight: 700;
-    font-size: 65px;
+    font-size: 55px;
 }
 .header-description{
     color: #444343;
-    text-align: right;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
 }
 .btn-primary{
-    position: absolute;
     width: 160px;
     height: 64px;
-    left: 1210px;
-    top: 540px;
     background: #F15B22;
     border-radius: 5px;
     border: none;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
+    margin-top: 20px;
 }
 /*Header title-description-button style end*/
 
 /* About section style start*/
 .person{
     display: flex;
-    gap: 87px;
+    gap: 70px;
 }
 .person-picture{
-    padding: 100px 200px;
+    padding: 100px 0px 100px 150px;
     width: 569px;
-    height: 723.3px;
-    left: 206px;
-    top: 939px; 
 }
 .person-about{
-    position: absolute;
-    width: 416px;
-    height: 400px;
-    left: 862px;
-    top: 1178px;
+    padding: 300px 100px 50px 0;
 }
 .about-title{
     color: #151414;
     font-weight: 700;
     font-size: 45px;
     padding-bottom: 24px;
+
 }
 span{
     color:#F15B22;
@@ -81,40 +73,35 @@ span{
     color: #444343;
     font-weight: 400;
     font-size: 16px;
-    padding: 8px 0;
-    margin-bottom: 10px;
+    padding: 5px 0;
 }
 /*about section style end*/
 
 /*plan section style*/
+.plan-content{
+    display: flex;
+    gap: 65px;
+    padding: 0 200px;
+    text-align: center;
+}
 .plan-title{
     font-weight: 700;
     font-size: 40px;
     text-align: center;
-    padding-bottom: 80px;
-}
-.success img{
-    margin: 40px;
-}
-.plan-content{
-    display: flex;
-    gap: 86px;
-    margin: 0 230px;
-    text-align: center;
-    
+    padding-bottom: 60px;
 }
 .plan-sub-title{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     color: #151414;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 .plan-description{
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
     color: #737272;
-    padding: 20px;
 }
+/*plan secttion style end*/
 
 /*my skill styles*/
 .title{
@@ -123,6 +110,9 @@ span{
     font-size: 40px;
     margin-bottom: 50px;
     margin: 50px 0;
+}
+.success img{
+    padding: 20px;
 }
 .success-container{
     display: flex;
@@ -150,11 +140,11 @@ span{
 
 /*bos style start*/
 .box-header{
-    margin: 100px 200px;
-    background-image:url(../images/watch.png);
-    background-size: cover;
-    padding: 60px 60px 60px 100px;
     background-image: linear-gradient(to right, orange, yellow);
+    margin: 100px 200px;
+    background-size: cover;
+    padding: 40px 60px 40px 100px;
+    border-radius: 10px;
 
 }
 .box-text{
@@ -178,7 +168,7 @@ span{
 .footer-content{
     display: flex;
     background: #151414;
-    padding: 150px 200px;
+    padding: 100px 150px;
     gap: 300px;
 }
 .btn-footer{
@@ -222,7 +212,7 @@ padding-bottom: 25px;
 }
 .email{
     background-color: #151414;
-    padding: 20px;
+    padding: 18px;
     color: #F8F8F8;
     border-radius: 10px;
     font-weight: 400;
